@@ -1,5 +1,6 @@
 'APT_Hunter.vbs 2.0
-'Author: Mr.Panda
+'Author: @MrRed_Panda
+'Copyright (c) 2016, Hao Wang
 ' Used to hunt for Advanced Persistent Threat (APT)  in the Windows environment
 ' Require privileged credentials such as domain administrator account
 ' Require at least Microsoft .net 4.6. 
@@ -74,7 +75,7 @@ WScript.Echo "Please make sure to pass the arguments as username->password->targ
 	
 else
 
-	WScript.Echo "Syntax error ! Please refer to the help page by typing [cscript KellyDump.vbs  -h] or [cscript KellyDump.vbs  --help]  "
+	WScript.Echo "Syntax error ! Please refer to the help page by typing [cscript APT_Hunter.vbs  -h] or [cscript APT_Hunter.vbs  --help]  "
 	WScript.Quit
 	
 End If
