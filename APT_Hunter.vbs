@@ -199,7 +199,7 @@ If FSO.FileExists (outputfile8Path) Then
 	Set outputfile8 = FSO.OpenTextFile(OutPutfolder & "\shimcache_sweep_2008_2012.tsv", ForAppending, True)
 Else
 	Set outputfile8 = FSO.OpenTextFile(OutPutfolder & "\shimcache_sweep_2008_2012.tsv", ForAppending, True)
-	outputfile8.write "HostName" & vbTab & "CacheEntryPosition" & vbTab & "File Path" & vbTab & "Last Modified"  & VBNewLine
+	outputfile8.write "HostName" & vbTab & "ControlSet" & vbTab & "CacheEntryPosition" & vbTab & "File Path" & vbTab & "Last Modified" & vbTab & "Execution"  & VBNewLine
 End If
 
 If FSO.FileExists (outputfile9Path) Then
